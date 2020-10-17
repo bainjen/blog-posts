@@ -75,7 +75,7 @@ Stand up, take a breath, drink a glass of water, pet your dog, and come back to 
 
 Now that we've moved past the initial shock and befuddlement of error messages, we can see that they exist for a reason, which is to point you to the portion of your code the computer cannot read! 
 
-With this new-found realization that error messages meant to point us in the right direction, tracking down errors becomes something like a scavenger hunt. Each error is speck on the road map to building successful code. Follow the bread crumbs!
+With this new-found realization that error messages are meant to point us in the right direction, tracking down errors becomes something like a scavenger hunt. Each error is speck on the road map to building successful code. Follow the bread crumbs!
 
 ## learn the patterns 
 
@@ -172,7 +172,7 @@ Template is missing: Missing template books/index
 
 A template? We aren't certain what Rails wants from us. We search 'Rails template is missing error' and see that we are not alone our confusion. The coding world has not let us down. The browser is throwing an error because it doesn't know what to render. Internet strangers suggest we create a views page and name it using the name of our controller and the action we are calling: ```app/views/books/index.html.erb``` We type in  `<p>HELLO WORLD!</p>`, anxious to see if anything will render...
 
-It DOES! WE'VE ESCAPED THE GAUNTLET OF ERRORS! 
+IT DOES! WE'VE ESCAPED THE GAUNTLET OF ERRORS! 
 
 But wait a minute, now how do we render a list of our actual books? Hm...
 Back to Google where we find a delightfully useful resource: [Ruby on Rails documentation](https://guides.rubyonrails.org/layouts_and_rendering.html), complete with a guide explaining our newest conundrum. 
