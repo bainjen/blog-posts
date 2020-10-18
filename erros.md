@@ -1,4 +1,5 @@
 # Using Errors to Learn How to Code 
+#### New to coding? Me too. Let's make peace with errors once and for all.
 
 ## **Picture this:** 
 A global pandemic strikes and you realize that the career path you started down isn't a fit for the long haul. You're spending all of your days locked indoors and the grocery store has run out of flour and yeast so your options for distraction are diminishing. Call it practicality or call it an existential life crisis, either way, you resort to doing some research about potential new career paths.
@@ -53,10 +54,12 @@ Twenty minutes of experimentation later, it turns out you simply forgot that "sn
 ```js
 const favAnimal = "snail"
 ```
+![example of js error](./images/error.png)
 
-Admittedly the above example is simplistic. Nonetheless, that was me the first ~~-50-~~ few times I opened my terminal. 
+Admittedly the above example is simplistic. Nonetheless, that was me the first ~~-50-~~ few times I opened my terminal. To be fair, the above error message is 9 lines long, even though the only thing we truly care about it the type of error and the location of the error, which we can see is in example.js on line 1.  
 
 If a similar situation has intimidated you from diving deeper into the world of coding, you're not alone -- and this post is for you. 
+
 
 Come along, dear readers...
 We're talking about errors and by the end of this, I hope you'll see why errors are friend, not foe. We'll rethink our perception of errors as we discuss the ways in which errors can be insightful and lead us down the path to become savvier developers. 
@@ -128,6 +131,9 @@ Just as we don't expect 5 year olds to pick up a bicycle and compete in the Tour
 
 ## Let's look at an example of how errors can guide our development using Ruby on Rails: 
 
+In this example, we will examine the importance of working incrementally. Taking baby steps through our code and ~~putting out one fire~~ addressing one error message at a time can help us stay focused rather than frazzled. 
+
+Let's do this!
 
 We open up a terminal and type the command to start a fresh app: 
 
@@ -169,6 +175,9 @@ It seems likely we will need to add more to this later but for the moment, our f
 ```
 Template is missing: Missing template books/index
 ```
+![template is missing error](./images/template_missing.png)
+###### *(above is an example of a template error in Rails. That looks like a lot of red text yelling at us, but in reality, it's just a friendly reminder that we are missing an erb file in our views folder that corresponds with our route.)*
+
 
 A template? We aren't certain what Rails wants from us. We search 'Rails template is missing error' and see that we are not alone our confusion. The coding world has not let us down. The browser is throwing an error because it doesn't know what to render. Internet strangers suggest we create a views page and name it using the name of our controller and the action we are calling: ```app/views/books/index.html.erb``` We type in  `<p>HELLO WORLD!</p>`, anxious to see if anything will render...
 
@@ -177,20 +186,18 @@ IT DOES! WE'VE ESCAPED THE GAUNTLET OF ERRORS!
 But wait a minute, now how do we render a list of our actual books? Hm...
 Back to Google where we find a delightfully useful resource: [Ruby on Rails documentation](https://guides.rubyonrails.org/layouts_and_rendering.html), complete with a guide explaining our newest conundrum. 
 
-
-Remember what I said about scavenger hunts? This is what I mean. 
-It's a little bit fun, right!?
+When we work incrementally and celebrate each small victory, error driven development can feel like a game. Remember what I said about scavenger hunts? This is what I mean. 
+It's a little bit fun, right!? 
 
 ![scavenger hunt](https://media.giphy.com/media/42wQXwITfQbDGKqUP7/giphy.gif)
 
-As we continue to build our app, we will continue to find new errors, and that's okay! 
+As we continue to build our app, we will continue to find new errors, and that's okay! Just take it one step at a time. 
 
 Now we see the benefits of working incrementally. We've located some documentation that will make our lives easier for this next step of our build and we will can continue to take it one step at a time. The next time we see that 'template is missing' error, we won't feel so confused. We'll remember that we have to add an `html.erb` file to our views folder. As we learn the patterns, the flow of our code will become clearer and we will be able to work more effectively as we understand the framework we are using. 
 
-
 ## **Summary**
 
-And that, dear readers, is error driven development, a useful tool for coding newcomers. 
+And that, dear readers, is error driven development: a useful tool for coding newcomers. Taking the time to get to know errors can help us see how a coding language flows and ultimately lays a foundation for our understanding. With patience and persistence, following the lead of errors can make us more intuitive developers. 
 
 Remember:
 
@@ -203,6 +210,8 @@ Remember:
 If you've made it this far, I hope you've gained an appreciation for coding errors.
 
 Happy coding!
+
+![happy coding](https://media.giphy.com/media/PiQejEf31116URju4V/giphy.gif)
 
 ## **Resources**
 
